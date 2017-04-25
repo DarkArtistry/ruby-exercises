@@ -9,3 +9,10 @@
 #
 # > 120
 #
+
+def factorial(n)
+  new_arr = (1..n).to_a
+  puts new_arr.reduce(:*)
+end
+
+factorial(5)
